@@ -8,6 +8,37 @@
   .strategy-item {
     width: calc((100% - 24px) / 2);
   }
+  /*======effect============*/
+  .section-effect {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab1x.jpg);
+    max-width: 768px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 191dpi),
+    (min-resolution: 2dppx) {
+    .section-effect {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab2x.jpg);
+    }
+  }
+  .effect-title {
+    font-size: 56px;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    height: 120px;
+  }
+
   /*=============team==========*/
   .team {
     padding: 96px 108px;
@@ -34,6 +65,31 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  /*==========effect=============*/
+  .section-effect {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-des1x.jpg);
+    max-width: 1440px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 191dpi),
+    (min-resolution: 2dppx) {
+    .section-effect {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-des2x.jpg);
+    }
+  }
+  .effect-title {
+    margin-bottom: 48px;
+  }
+
   /*=========strategy=============*/
   .strategy-item {
     width: calc((100% - 72px) / 4);
