@@ -223,9 +223,7 @@ img {
   /*fill: var(--cornflower, #e7e9fc);
   stroke-width: 1px;
   stroke: var(--navyblue, #2e2f42);*/
-
   opacity: 0.1;
-
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -430,17 +428,16 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
-  text-align: center;
 }
 .strategy-title {
   margin-bottom: 8px;
   color: var(--navyblue, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .text {
@@ -465,7 +462,7 @@ img {
 /* .section-doing  =================*/
 .section-doing {
   display: none;
-  /*padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 .title-two {
   color: var(--navyblue, #2e2f42);
@@ -482,13 +479,12 @@ img {
   flex-shrink: 0;
 }
 .doing-item {
-  width: calc((100% - 48px) / 3);*/
+  width: calc((100% - 48px) / 3);
 }
 /* ==============team=================== */
 .team {
   background-color: #f4f4fd;
-  /*padding-bottom: 120px;
-  padding-top: 120px;*/
+
   padding: 96px 82px;
 }
 .team-wrap {
@@ -498,19 +494,16 @@ img {
 
   justify-content: center;
   align-items: center;
-  /*gap: 24px;
-  flex-shrink: 0;*/
 }
 
 .team-photo {
   background-color: #fff;
   display: inline-flex;
-  /*width: calc((100% 72px) / 4);
-  padding-bottom: 0px;*/
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*gap: 32px;*/
+
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -518,7 +511,6 @@ img {
   padding-bottom: 32px;
 }
 .team-name {
-  /*padding: 32px 0;*/
   padding-top: 32px;
   padding-left: 16px;
   padding-right: 16px;
@@ -565,9 +557,10 @@ img {
   margin-bottom: 16px;
 }
 .footer-logo {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
-  margin-right: 0;
+  /*margin-right: 0;*/
+  text-align: center;
 }
 .container-footer {
   display: flex;
