@@ -2,6 +2,9 @@
   .container {
     max-width: 768px;
   }
+  .mob-menu {
+    display: none;
+  }
   .strategy-list {
     gap: 72px 24px;
   }
@@ -64,6 +67,9 @@
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .mob-menu {
+    display: none;
   }
   /*==========effect=============*/
   .section-effect {
