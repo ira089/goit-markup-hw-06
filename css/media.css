@@ -87,17 +87,22 @@
     justify-content: flex-start;
     gap: 72px 24px;
   }
+  .footer-logo {
+    text-align: start;
+  }
   .footer-form {
     flex-wrap: nowrap;
     gap: 24px;
     justify-content: flex-start;
   }
+
   .footer-text-social {
     text-align: left;
   }
   .footer-input {
     width: 264px;
     line-height: 2;
+    margin-left: 0;
   }
   /*=========modal========*/
   .modal {
@@ -228,5 +233,10 @@
   }
   .header-item:first-child {
     margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 428px) {
+  .footer-input {
+    width: 398px;
   }
 }
