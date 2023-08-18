@@ -1,11 +1,14 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    /*max-width: 768px;*/
   }
   .mob-menu {
     display: none;
   }
   /*=============heder=========*/
+  .header-cont {
+    padding-right: 16px;
+  }
   .header-open-btn {
     display: none;
   }
@@ -36,7 +39,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-tab1x.jpg);
-    max-width: 768px;
+    /*max-width: 768px;*/
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 191dpi),
@@ -235,8 +238,9 @@
     margin-bottom: 12px;
   }
 }
+/*
 @media screen and (min-width: 428px) {
   .footer-input {
-    width: 398px;
+    width: 390 px;
   }
-}
+}*/
