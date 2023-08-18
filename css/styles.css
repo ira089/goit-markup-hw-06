@@ -908,6 +908,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
   margin-bottom: 4px;
+  width: 100%;
 }
 .input-wrap {
   position: relative;
