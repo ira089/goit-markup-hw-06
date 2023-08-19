@@ -6,8 +6,12 @@
     display: none;
   }
   /*=============heder=========*/
+  .header {
+    padding: 16px 16px 16px 16px;
+  }
   .header-cont {
-    padding-right: 16px;
+    padding-right: 0;
+    padding-left: 0;
   }
   .header-open-btn {
     display: none;
@@ -97,6 +101,7 @@
     width: auto;
   }
   .footer-form {
+    flex-direction: row;
     flex-wrap: nowrap;
     gap: 24px;
     justify-content: flex-start;
@@ -115,6 +120,8 @@
     width: 408px;
     min-height: 584px;
     padding: 72px 25px 24px 23px;
+
+    /*transform: translate(-50%, -50%);*/
   }
 }
 /*=======1158=================================================*/
@@ -226,6 +233,7 @@
   /*=========modal========*/
   .modal {
     padding: 72px 24px 24px 24px;
+    transform: translate(-50%, -47%);
   }
 }
 

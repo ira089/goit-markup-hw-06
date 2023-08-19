@@ -601,7 +601,8 @@ img {
 }
 .footer-form {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
   gap: 16px;
   align-items: center;
   justify-content: center;
@@ -610,7 +611,9 @@ img {
 .footer-text-social {
   text-align: center;
 }
-
+.footer-label {
+  width: 100%;
+}
 .footer-input {
   background-color: transparent;
   border-radius: 4px;
@@ -829,7 +832,7 @@ img {
   width: 100%;
   height: 100%;
   top: 0;
-  padding: 96px 18px 116px 18px; /*mob*/
+  /*padding: 96px 18px 116px 18px; /*mob*/
   background: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -838,7 +841,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -35%);
+  transform: translate(-50%, -36%);
   /*width: 408px;*/
   min-height: 584px;
   width: 392px;
