@@ -125,6 +125,20 @@
 
     /*transform: translate(-50%, -50%);*/
   }
+  /*=======portf=======*/
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .por {
+    margin-bottom: 64px;
+    flex-wrap: nowrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  .por-items {
+    width: calc((100% - 24px) / 2);
+  }
 }
 /*=======1158=================================================*/
 @media screen and (min-width: 1158px) {
@@ -242,6 +256,17 @@
     top: 80px;
     padding: 72px 24px 24px 24px;
     transform: translateX(-50%);
+  }
+  /*=======portf=======*/
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .por {
+    margin-bottom: 72px;
+  }
+  .por-items {
+    width: calc((100% - 48px) / 3);
   }
 }
 

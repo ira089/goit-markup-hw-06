@@ -23,29 +23,102 @@
             >Web<span class="studio">Studio</span></a
           >
           <ul class="header-menu list">
-            <li><a class="link-logo link" href="./index.html">Studio</a></li>
             <li>
-              <a class="link-logo link current" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="link-logo link current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="link-logo link" href="./portfolio.html">Portfolio</a>
             </li>
             <li><a class="link-logo link" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="header-add">
           <ul class="add-list list">
-            <li>
+            <li class="header-item">
               <a class="address link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="header-item">
               <a class="address link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button class="header-open-btn" data-menu-open type="button">
+          <svg class="mob-btn-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger-1"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <button class="header-clous-btn" data-menu-close type="button">
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
+
+        <ul class="mob-list list">
+          <li class="mob-item">
+            <a class="mob-link-logo link" href="./index.html">Studio</a>
+          </li>
+          <li class="mob-item">
+            <a class="mob-link-logo link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mob-item">
+            <a class="mob-link-logo link" href="">Contacts</a>
+          </li>
+        </ul>
+
+        <div>
+          <address class="mob-add">
+            <ul class="mob-add-list list">
+              <li class="tel-item">
+                <a class="mob-tel link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="mob-email link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="container-social">
+            <ul class="list mob-social">
+              <li class="social-list">
+                <a class="link social green" href="" target="_blank">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list">
+                <a class="link social green" href="" target="_blank">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list">
+                <a class="link social green" href="" target="_blank">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list">
+                <a class="link social green" href="" target="_blank">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -335,5 +408,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
