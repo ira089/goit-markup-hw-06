@@ -121,7 +121,6 @@
   /*=========modal========*/
   .modal {
     width: 408px;
-    min-height: 584px;
     padding: 72px 25px 24px 23px;
 
     /*transform: translate(-50%, -50%);*/
@@ -240,8 +239,9 @@
   }
   /*=========modal========*/
   .modal {
+    top: 80px;
     padding: 72px 24px 24px 24px;
-    transform: translate(-50%, -47%);
+    transform: translateX(-50%);
   }
 }
 
